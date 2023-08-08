@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "~/components/ui/card";
+import { H1, H2 } from "./components/ui/typography";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,8 +15,8 @@ function App() {
   return (
     <main className="h-screen w-screen flex items-center justify-center flex-col gap-8">
       <div className="flex items-center flex-col">
-        <h1 className="text-4xl">Hello World</h1>
-        <h2>Destroy complexity, create beauty.</h2>
+        <H1 className="text-4xl">Hello World</H1>
+        <H2>Destroy complexity, create beauty.</H2>
       </div>
 
       <Card>
